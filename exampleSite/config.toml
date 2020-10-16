@@ -5,6 +5,10 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "Mallu Times"
 [[menu.main]]
+name = "Home"
+url = "home"
+weight = 4
+[[menu.main]]
 hasChildren = true
 name = "Home"
 url = "home"
