@@ -4,19 +4,6 @@ paginate = 6
 summaryLength = "10"
 theme = "parsa-hugo"
 title = "Mallu Times"
-[[menu.main]]
-hasChildren = false
-name = "Homepage"
-url = ""
-weight = 1
-[[menu.main]]
-name = "About"
-url = "about"
-weight = 2
-[[menu.main]]
-name = "Contact"
-url = "contact"
-weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
