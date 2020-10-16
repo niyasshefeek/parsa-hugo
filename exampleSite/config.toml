@@ -5,8 +5,23 @@ summaryLength = "10"
 theme = "parsa-hugo"
 title = "Mallu Times"
 [[menu.main]]
+hasChildren = ""
+name = "Business"
+url = "business"
+weight = "2"
+[[menu.main]]
+hasChildren = false
 name = "Home"
+url = ""
 weight = 1
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 2
+[[menu.main]]
+name = "Contact"
+url = "contact"
+weight = 3
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
